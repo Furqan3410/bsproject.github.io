@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Urbanist&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color: #c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #c850c0;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Lexend' sans-serif;
+    color: var(--bs-dark-color);
+}
+h1{
+    font-size: 3.8rem;
+}
+p{
+    font-weight: 400;
+    margin: 0%;
+    text-rendering: optimizeLegibility;
+    font-size: 1rem;
+    font-synthesis: none;
+    table-layout: 0.07rem;
+    line-height: 1.6rem;
+}
+.hero-video-section{
+    border-radius: 2rem;
+    width: 35rem;
+}
+.bg-main{
+    height: 100vh ;
+    position: relative;
+}
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.bg-color{
+    background-color: var(--bs-dark-color);
+}
+.para-width{
+    color: var(--bs-primary-color);
+}
+.nav-link{
+    color: var(--bs-primary-color) !important;
+}
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}
+.custom-shape-divider-bottom-1696348407 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1696348407 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1696348407 .shape-fill {
+    fill: #FFFFFF;
+}
